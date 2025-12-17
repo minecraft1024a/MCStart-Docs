@@ -10,7 +10,7 @@ export const zh = defineConfig({
     sidebar: sidebarGuide(),
 
     editLink: {
-      pattern: 'https://github.com/MaiCore-Start/MCStart-Docs/NapCatDocs/edit/main/src/:path',
+      pattern: 'https://github.com/MaiCore-Start/MCStart-Docs/edit/main/NapCatDocs/src/:path',
       text: '在 GitHub 上编辑此页面'
     },
 
@@ -147,7 +147,7 @@ function sidebarGuide(): DefaultTheme.Sidebar {
         },
         {
           text: '联系',
-          link: '/about'
+          link: '/about.md'
         }
       ]
     },

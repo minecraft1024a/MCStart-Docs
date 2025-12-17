@@ -1,9 +1,13 @@
 # 联系
 ## 社群
-[NapCat #4](https://qm.qq.com/q/CMmPbGw0jA)
 
-[NapCat #3](https://qm.qq.com/q/8zJMLjqy2Y)
+[MaiCore 答疑一群](https://qm.qq.com/q/jaR1OEuwhO)<mark>不可接入bot</mark>
 
-[NapCat #2](https://qm.qq.com/q/uhRrZRqwEK)
+[MaiCore 答疑二群](https://qm.qq.com/q/MZJYVYEP0i)<mark>不可接入bot</mark>
 
-[NapCat #1](https://qm.qq.com/q/cnr2C9UifC)
+[墨狐交流群](https://qm.qq.com/q/AKoGi0u8ta)<mark>可以接入bot</mark>
+
+[麦麦测试交流群](https://qm.qq.com/q/k0fh8rXEu4)<mark>可以接入bot</mark>
+
+
+
