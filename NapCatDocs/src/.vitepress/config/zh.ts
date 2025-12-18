@@ -60,7 +60,7 @@ function sidebarGuide(): DefaultTheme.Sidebar {
     {
       text: '快速开始',
       base: '/guide',
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: '目录导航', link: '/start-install' },
         { text: '什么是 MCStart', link: '/MCStart' },
@@ -70,7 +70,7 @@ function sidebarGuide(): DefaultTheme.Sidebar {
     {
       text: '使用',
       base: '/use',
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: '新手使用指南', link: '/use' },
         { text: '实例部署', link: '/deployment' },
@@ -79,78 +79,35 @@ function sidebarGuide(): DefaultTheme.Sidebar {
       ]
     },
     {
-      text: '开发',
-      base: '/develop',
-      collapsed: true,
+      text: '功能详解',
+      base: '/function',
+      collapsed: false,
       items: [
-        { text: '请求接口', link: '/api' },
-        { text: '上报事件', link: '/event' },
-        { text: '消息类型', link: '/msg' },
-        { text: '本体开发', link: '/plugin' },
-        { text: '处理文件', link: '/file' },
+        { text: '[A] 运行实例', link: '/start' },
         {
-          text: '完整接口定义',
-          base: '/develop/api',
-          collapsed: false,
+          text: '[B] 配置管理', 
+          base: 'function/config',
+          collapsed: true,
           items: [
-            { text: '接口', link: '/doc' },
-            { text: '类型', link: '/type' }
-          ]
-        }
-      ]
-    },
-    {
-      text: '协议',
-      base: '/onebot',
-      collapsed: true,
-      items: [
-        {
-          text: '协议概述',
-          link: '/index'
+            { text: '[A] 自动检索', link: '/automatic' },
+            { text: '[B] 手动配置', link: '/manual' },
+            { text: '[C] 配置管理', link: '/config_manage' },
+          ],
         },
-        {
-          text: '网络通讯',
-          link: '/network'
+        { text: '[C] 知识库构建', link: '/lpmm' },
+        { text: '[D] 数据库迁移', link: '/mongodb_to_sqlite' },
+        { text: '[F] 实例部署辅助系统', link: '/instance_deployment' },
+        { text: '[G] 查看运行状态', link: '/state' },
+        { text: '[H] 杂项',
+          base: 'function/miscellaneous',
+          collapsed: true,
+          items: [
+            { text: '[A] 关于本程序', link: 'about.md' },
+            { text: '[B] 程序设置', link: '/settings' },
+            { text: '[C] 组件下载', link: '/components' },
+            { text: '[D] 查看实例运行数据', link: '/instance_data' },
+          ],
         },
-        {
-          text: '事件基础结构',
-          link: '/basic_event'
-        },
-        {
-          text: '事件字段详情',
-          link: '/event'
-        },
-        {
-          text: '接口基础接口',
-          link: '/api'
-        },
-        {
-          text: '消息元素定义',
-          link: '/sement'
-        },
-        {
-          text: '差异实现说明',
-          link: '/napcat'
-        }
-      ]
-    },
-    {
-      text: '其余',
-      base: '/other',
-      collapsed: true,
-      items: [
-        {
-          text: '喵喵',
-          link: '/napcat.md'
-        },
-        {
-          text: '安全',
-          link: '/security'
-        },
-        {
-          text: '联系',
-          link: '/about.md'
-        }
       ]
     },
   ]

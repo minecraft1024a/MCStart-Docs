@@ -149,7 +149,7 @@
 
 启动成功后，控制面板会自动在默认浏览器打开
 
-- **登录控制面板**: 访问 `http://localhost:7999`（如果安装了WebUI）
+- **登录麦麦控制面板**: 访问 `http://localhost:7999`（如果安装了WebUI）
    1. 仔细查看麦麦主程序的终端窗口
    2. 找到像这样的输出：
       ```
@@ -159,6 +159,27 @@
       ```
       复制 WebUI Access Token ，在这里就是`49c43a37174b7ff07ce0d8231429837455747ba2702fee241c7911cc80b35e51`
    3. 回到控制面板的登录界面并在 Access Token 处填入这一大串，回车，登录
+
+- **登录NapCatWebUI（Shell版）**
+  1. NapCat 启动成功后，仔细查看终端窗口，找到类似这样的输出：
+    ```
+   12-18 17:27:21 [info] [NapCat] [WebUi] WebUi User Panel Url: http://127.0.0.1:6099/webui?token=ccfee65cfff7
+   12-18 17:27:21 [info] [NapCat] [WebUi] WebUi User Panel Url: http://0.0.0.0:6099/webui?token=ccfee65cfff7
+   ```
+   这就是WebUI的登录地址，之所以推荐Shell版，是应为现在NapCat在部署完成后，会自动生成复杂的登录令牌（也就是地址后面的token值），而Shell会直接给出来，方便你登录。
+
+   2. 在浏览器输入 WebUI 的登录地址，回车，选择你要快捷登录的QQ账号或扫码登录。
+
+   3. 登录成功后，选择侧边栏的网络配置 → 新建 → Websocket客户端 
+
+   4. URL填写：`ws://localhost:8095`
+
+   5. 清空Token栏（这是防止你忘记在适配器中填写您的Token）
+
+   6. 将“启用"勾选上
+
+   7. 保存
+    ![示例](NapCat.png)
 
 ## 常见新手问题 ❓
 

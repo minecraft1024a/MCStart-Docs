@@ -30,7 +30,7 @@
 ### 基础要求
 
 - **操作系统**: Windows 10/11 (64位)
-- **内存**: 至少 4GB RAM (推荐 8GB 或更多)
+- **内存**: 至少 2GB RAM (推荐 8GB 或更多)
 - **存储空间**: 至少 10GB 可用空间
 - **网络**: 稳定的互联网连接
 
@@ -869,7 +869,27 @@ def _copy_config_template(self, template_path: str, target_path: str, replacemen
     with open(target_path, 'w', encoding='utf-8') as f:
         f.write(content)
 ```
+### **登录并配置NapCatWebUI（Shell版）**
+  1. 启动 NapCat ，仔细查看终端窗口，找到类似这样的输出：
 
+```
+   12-18 17:27:21 [info] [NapCat] [WebUi] WebUi User Panel Url: http://127.0.0.1:6099/webui?token=ccfee65cfff7
+   12-18 17:27:21 [info] [NapCat] [WebUi] WebUi User Panel Url: http://0.0.0.0:6099/webui?token=ccfee65cfff7
+ ```
+   这就是WebUI的登录地址，之所以推荐Shell版，是应为现在NapCat在部署完成后，会自动生成复杂的登录令牌（也就是地址后面的token值），而Shell会直接给出来，方便你登录。
+
+   2. 在浏览器输入 WebUI 的登录地址，回车，选择你要快捷登录的QQ账号或扫码登录。
+
+   3. 登录成功后，选择侧边栏的网络配置 → 新建 → Websocket客户端 
+
+   4. URL填写：`ws://localhost:8095`
+
+   5. 清空Token栏（这是防止你忘记在适配器中填写您的Token）
+
+   6. 将“启用"勾选上
+
+   7. 保存
+    ![示例](NapCat.png)
 
 ## ❓ 常见问题解决
 

@@ -4,7 +4,7 @@
 </div>
 
 ## 欢迎回家!
-这里是基于 NapCatDocs 制作的使用文档，欢迎回家！<mark>这里是 MCstart 的文档中心！</mark>
+这里是基于 [NapCatDocs](https://github.com/NapNeko/NapCatDocs) 制作的使用文档，欢迎回家！<mark>这里是 MCstart 的文档中心！</mark>
 ## MCStart 是什么?
 基于 Python 构建的 MaiCore 启动/管理器，通过集成部署模块、启动模块等核心模块实现对基于麦麦核心（MaiCore）构建的智能体的一站式管理功能。
 
