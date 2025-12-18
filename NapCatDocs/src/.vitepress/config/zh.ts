@@ -83,7 +83,7 @@ function sidebarGuide(): DefaultTheme.Sidebar {
       base: '/function',
       collapsed: false,
       items: [
-        { text: '[A] 运行实例', link: '/start' },
+        { text: '[A] 运行实例/实例多开', link: '/start' },
         {
           text: '[B] 配置管理', 
           base: 'function/config',
@@ -102,7 +102,7 @@ function sidebarGuide(): DefaultTheme.Sidebar {
           base: 'function/miscellaneous',
           collapsed: true,
           items: [
-            { text: '[A] 关于本程序', link: 'about.md' },
+            { text: '[A] 关于本程序', link: '/about.md' },
             { text: '[B] 程序设置', link: '/settings' },
             { text: '[C] 组件下载', link: '/components' },
             { text: '[D] 查看实例运行数据', link: '/instance_data' },
