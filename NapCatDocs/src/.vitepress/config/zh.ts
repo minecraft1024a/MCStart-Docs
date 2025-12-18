@@ -74,7 +74,8 @@ function sidebarGuide(): DefaultTheme.Sidebar {
       items: [
         { text: '新手使用指南', link: '/use' },
         { text: '实例部署', link: '/deployment' },
-        { text: '实例启动', link: '/startup' }
+        { text: '实例启动', link: '/startup' },
+        { text: 'FAQ', link: '/FAQ' },
       ]
     },
     {

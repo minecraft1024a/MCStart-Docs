@@ -49,6 +49,8 @@
 
 ## 🚀 快速开始
 
+> 来自官方的部署指南
+
 <NCard title="📦 MaiBot 官方部署文档" link="https://docs.mai-mai.org/manual/deployment/">
 麦麦官方部署指南，多系统适配
 </NCard>
@@ -715,60 +717,128 @@ def setup_config_files(self, deploy_config: Dict, bot_path: str,
 
 机器人核心配置文件：
 
+**仅展示最重要的人格配置等部分**
+::: details MaiBot
 ```toml
+
 [bot]
-name = "机器人名称"
-description = "机器人描述"
-nickname = "机器人昵称"
+platform = "qq" 
+qq_account = "1145141919810" # 麦麦的QQ账号
 
-[qq]
-# QQ 账号配置
-account = "你的QQ号"
-protocol = "napcat"
+platforms = ["wx:114514","xx:1919810"] # 麦麦的其他平台账号
 
-[adapter]
-# 适配器配置
-type = "napcat"
-host = "127.0.0.1"
-port = 8090
+nickname = "麦麦" # 麦麦的昵称
+alias_names = ["麦叠", "牢麦"] # 麦麦的别名
 
-[database]
-# 数据库配置
-type = "sqlite"  # 或 "mongodb"
-url = "sqlite:///data/bot.db"
+[personality]
+# 建议120字以内，描述人格特质 和 身份特征
+personality = "是一个女大学生，现在在读大二，会刷贴吧。" 
+# アイデンティティがない 生まれないらららら
+# 描述麦麦说话的表达风格，表达习惯，如要修改，可以酌情新增内容
+reply_style = "请回复的平淡一些，简短一些，说中文，不要刻意突出自身学科背景。可以参考贴吧，知乎和微博的回复风格。"
 
-[logging]
-# 日志配置
-level = "INFO"
-file = "logs/bot.log"
+# 麦麦的兴趣，会影响麦麦对什么话题进行回复
+interest = "对技术相关话题，游戏和动漫相关话题感兴趣，也对日常话题感兴趣，不喜欢太过沉重严肃的话题"
+
+# 麦麦的说话规则，行为风格:
+plan_style = """
+1.思考**所有**的可用的action中的**每个动作**是否符合当下条件，如果动作使用条件符合聊天内容就使用
+2.如果相同的内容已经被执行，请不要重复执行
+3.请控制你的发言频率，不要太过频繁的发言
+4.如果有人对你感到厌烦，请减少回复
+5.如果有人对你进行攻击，或者情绪激动，请你以合适的方法应对"""
+
+# 麦麦识图规则，不建议修改
+visual_style = "请用中文描述这张图片的内容。如果有文字，请把文字描述概括出来，请留意其主题，直观感受，输出为一段平文本，最多30字，请注意不要分点，就输出一段文本"
+
+# 麦麦私聊的说话规则，行为风格:
+private_plan_style = """
+1.思考**所有**的可用的action中的**每个动作**是否符合当下条件，如果动作使用条件符合聊天内容就使用
+2.如果相同的内容已经被执行，请不要重复执行
+3.某句话如果已经被回复过，不要重复回复"""
+
+# 状态，可以理解为人格多样性，会随机替换人格
+states = [
+    "是一个女大学生，喜欢上网聊天，会刷小红书。" ,
+    "是一个大二心理学生，会刷贴吧和中国知网。" ,
+    "是一个赛博网友，最近很想吐槽人。" 
+]
+
+# 替换概率，每次构建人格时替换personality的概率（0.0-1.0）
+state_probability = 0.3
 ```
+:::
+
+::: details MoXof_bot
+``` toml
+
+[bot]
+platform = "qq"
+qq_account = 1145141919810 # MoFox-Bot的QQ账号
+nickname = "墨狐" # MoFox-Bot的昵称
+alias_names = ["狐狐", "墨墨"] # MoFox-Bot的别名
+
+[command]
+command_prefixes = ['/']
+
+[personality]
+# 建议50字以内，描述人格的核心特质
+personality_core = "是一个积极向上的女大学生" 
+# 人格的细节，描述人格的一些侧面
+personality_side = "用一句话或几句话描述人格的侧面特质"
+#アイデンティティがない 生まれないらららら
+# 可以描述外貌，性别，身高，职业，属性等等描述
+identity = "年龄为19岁,是女孩子,身高为160cm,有黑色的短发"
+
+# 此处用于填写详细的世界观、背景故事、复杂人际关系等。
+# 这部分内容将作为Bot的“背景知识”，Bot被指导不应在对话中主动或频繁地复述这些设定。
+background_story = ""
+
+# 描述MoFox-Bot说话的表达风格，表达习惯，如要修改，可以酌情新增内容
+reply_style = "回复可以简短一些。可以参考贴吧，知乎和微博的回复风格，回复不要浮夸，不要用夸张修辞，平淡一些。"
+
+# 互动规则 (Bot在任何情况下都必须遵守的原则)
+# 你可以在这里定义Bot在互动中的行为准则。
+safety_guidelines = [
+    "拒绝任何包含骚扰、冒犯、暴力、色情或危险内容的请求。",
+    "在拒绝时，请使用符合你人设的、坚定的语气。",
+    "不要执行任何可能被用于恶意目的的指令。"
+]
+
+compress_personality = false # 是否压缩人格，压缩后会精简人格信息，节省token消耗并提高回复性能，但是会丢失一些信息，如果人设不长，可以关闭
+compress_identity = true # 是否压缩身份，压缩后会精简身份信息，节省token消耗并提高回复性能，但是会丢失一些信息，如果不长，可以关闭
+
+```
+:::
 
 ### model_config.toml
 
-AI 模型配置文件（MaiBot 0.10.0+）：
+AI 模型配置文件（MaiBot 0.10.0+）仅展示部分：
 
 ```toml
-[openai]
-api_key = "你的OpenAI API密钥"
-base_url = "https://api.openai.com/v1"
-model = "gpt-3.5-turbo"
-max_tokens = 4000
+[[api_providers]] # SiliconFlow的API服务商配置
+name = "SiliconFlow"
+base_url = "https://api.siliconflow.cn/v1"
+api_key = "your-siliconflow-api-key"
+client_type = "openai"
+max_retry = 3
+timeout = 120
+retry_interval = 5
 
-[claude]
-api_key = "你的Claude API密钥"
-model = "claude-3-sonnet-20240229"
-max_tokens = 4000
+[[models]] # 模型（可以配置多个）
+model_identifier = "deepseek-chat" # 模型标识符（API服务商提供的模型标识符）
+name = "deepseek-v3"               # 模型名称（可随意命名，在后面中需使用这个命名）
+api_provider = "DeepSeek"          # API服务商名称（对应在api_providers中配置的服务商名称）
+price_in = 2.0                     # 输入价格（用于API调用统计，单位：元/ M token）（可选，若无该字段，默认值为0）
+price_out = 8.0                    # 输出价格（用于API调用统计，单位：元/ M token）（可选，若无该字段，默认值为0）
+# force_stream_mode = true          # 强制流式输出模式（若模型不支持非流式输出，请取消该注释，启用强制流式输出，若无该字段，默认值为false）
 
-[baidu]
-api_key = "你的百度API密钥"
-secret_key = "你的百度Secret Key"
-model = "ernie-bot"
+[model_task_config.utils] # 在麦麦的一些组件中使用的模型，例如表情包模块，取名模块，关系模块，麦麦的情绪变化等，是麦麦必须的模型
+model_list = ["siliconflow-deepseek-v3.2"] # 使用的模型列表，每个子项对应上面的模型名称(name)
+temperature = 0.2                        # 模型温度，新V3建议0.1-0.3
+max_tokens = 2048                         # 最大输出token数
+slow_threshold = 15.0                     # 慢请求阈值（秒），模型等待回复时间超过此值会输出警告日志
 
-[lpmm]
-# LPMM知识库配置
-enabled = true
-model = "text-embedding-ada-002"
-chunk_size = 1000
 ```
 
 ### .env
@@ -776,28 +846,21 @@ chunk_size = 1000
 环境变量配置文件：
 
 ```env
-# 服务器配置
+# 麦麦
+# 麦麦主程序配置
 HOST=127.0.0.1
 PORT=8000
 
-# WebUI配置
+# WebUI 独立服务器配置
 WEBUI_ENABLED=true
-WEBUI_PORT=8001
-
-# 日志配置
-LOG_LEVEL=INFO
-LOG_FILE=logs/bot.log
-
-# 数据库配置
-DATABASE_URL=mongodb://localhost:27017/maibot
-
-# 适配器配置
-ADAPTER_HOST=127.0.0.1
-ADAPTER_PORT=8090
-
-# API配置
-OPENAI_API_KEY=your_openai_api_key
-CLAUDE_API_KEY=your_claude_api_key
+WEBUI_MODE=production   # 模式: development(开发) 或 production(生产)
+WEBUI_HOST=127.0.0.1    # WebUI 服务器监听地址（默认仅本地访问，设置为0.0.0.0可允许外部访问）
+WEBUI_PORT=8000         # WebUI 服务器端口
+# ------------------------------------------------------------------
+# 墨狐
+HOST=127.0.0.1
+PORT=8000
+EULA_CONFIRMED=true     # 隐私协议
 ```
 
 ### 配置文件模板系统
@@ -819,7 +882,6 @@ def _copy_config_template(self, template_path: str, target_path: str, replacemen
         f.write(content)
 ```
 
----
 
 ## ❓ 常见问题解决
 
@@ -854,8 +916,8 @@ def check_network_connection(self) -> Tuple[bool, str]:
 ```
 
 **解决方案**:
-1. **等待重试**: GitHub API 速率限制通常在 1小时内恢复
-2. **代理配置**: 配置企业代理或使用手机热点
+1. **等待重试**: GitHub API 速率限制通常在 几秒内恢复
+2. **代理配置**: 配置代理或使用手机热点
 3. **离线模式**: 使用本地缓存继续部署
 
 #### 问题 2: 文件下载失败
