@@ -67,6 +67,6 @@
 
 ::: warning
 
-**尽管多开实例功能已经趋近于完善，但任然可能存在BUG，如有错误请在 [GitHub上提交 Issues](https://github.com/MaiCore-Start/MaiCore-Start/issues) 反馈给开发者。**
+**尽管多开实例功能已经趋近于完善，但任然可能存在BUG，如有错误请在 [GitHub上提交 Issues](https://github.com/MaiCore-Start/MaiCore-Start/issues) 反馈给我们。**
 
 :::

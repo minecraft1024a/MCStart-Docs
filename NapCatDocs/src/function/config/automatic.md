@@ -18,6 +18,6 @@ QQ号配置完后，将要求你配置序列号、版本号，询问你是否安
 
 ::: warning
 
-**目前这个功能还不稳定，可能存在BUG，如有错误请在 [GitHub上提交 Issues](https://github.com/MaiCore-Start/MaiCore-Start/issues) 反馈给开发者。**
+**目前这个功能还不稳定，可能存在BUG，如需配置您已部署的实例，建议[手动配置](../config/manual.md)或在[可视化UI](../config/config_manage#可视化编辑配置)中配置，如有错误请在 [GitHub上提交 Issues](https://github.com/MaiCore-Start/MaiCore-Start/issues) 反馈给我们。**
 
 :::
