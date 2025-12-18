@@ -2,7 +2,11 @@
 
 > **MaiCore Start 常见问题及解决方案**
 
-## 📋 目录
+::: tip 温馨提示
+本FAQ文档汇总了用户在使用 MaiCore Start 过程中最常遇到的问题和解决方案。如果文档中发现错误，或您想提交文档修改、丰富本站文档，可点击页面底部的编辑按钮。
+:::
+
+# 📋 目录
 
 - [启动相关问题](#启动相关问题)
   - [配置验证失败](#配置验证失败-)
@@ -26,7 +30,6 @@
   - [运行启动问题](#运行启动问题)
     - [Bot 启动失败](#问题-7-bot-启动失败)
     - [QQ 登录失败](#问题-8-qq-登录失败)
-
 
 ## 启动相关问题
 
@@ -123,7 +126,7 @@ def _validate_and_repair_serials(self) -> bool:
 
 ---
 
-## 部署相关问题
+# 部署相关问题
 
 ## 网络连接问题
 
@@ -155,10 +158,12 @@ def check_network_connection(self) -> Tuple[bool, str]:
     return False, "无法连接到GitHub和PyPI镜像站点"
 ```
 
-**解决方案**:
+::: warning 网络问题处理
+如果网络检查失败，系统提供以下解决方案：
 1. **等待重试**: GitHub API 速率限制通常在 几秒内恢复
 2. **代理配置**: 配置代理或使用手机热点
 3. **离线模式**: 使用本地缓存继续部署
+:::
 
 ### 问题 2: 文件下载失败
 
@@ -419,3 +424,23 @@ def check_napcat_connection(self, napcat_path: str) -> bool:
 2. **设备验证**: 按照 NapCat 提示完成设备验证
 3. **版本更新**: 更新到最新版本的 NapCat
 4. **网络检查**: 确保网络连接稳定
+
+---
+
+<NCard title="📘 查看启动文档" link="./startup">
+了解更多关于 MaiCore Start 启动系统的详细信息
+</NCard>
+
+<NCard title="📘 查看部署文档" link="./deployment.md">
+查看完整的 MaiCore Start 部署教程
+</NCard>
+
+<NCard title="🐛 提交问题反馈" link="https://github.com/MaiCore-Start/MaiCore-Start/issues">
+如果您遇到的问题未在本文档中列出，请在 GitHub 上提交 issue
+</NCard>
+
+<NCard title="💫 开启拉取请求" link="https://github.com/MaiCore-Start/MaiCore-Start/pulls">
+如果您实现了更好的想法或功能，可以在 GitHub 上开启 Pull Request
+</NCard>
+
+## TOP

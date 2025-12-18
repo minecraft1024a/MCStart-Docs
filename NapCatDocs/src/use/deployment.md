@@ -47,18 +47,6 @@
 :::
 
 
-## 🚀 快速开始
-
-> 来自官方的部署指南
-
-<NCard title="📦 MaiBot 官方部署文档" link="https://docs.mai-mai.org/manual/deployment/">
-麦麦官方部署指南，多系统适配
-</NCard>
-
-<NCard title="📦 MoFox_bot 官方部署文档" link="https://docs.mofox-sama.com/docs/guides/">
-墨狐官方部署指南，多系统适配
-</NCard>
-
 ### 快速部署流程
 
 #### 第一步：启动部署程序
@@ -1482,5 +1470,7 @@ MaiCore Start版本: v4.1.2-beta
 **感谢使用 MaiCore Start 企业级部署系统！**
 
 通过自动化的部署流程、智能的配置管理和强大的监控功能，MaiCore Start 为 Bot 开发者提供了专业级的部署解决方案。如果您觉得这个工具有帮助，欢迎给项目点个星⭐！
+
+## [TOP](#📋-目录)
 
 <!-- 部署教程结束 -->

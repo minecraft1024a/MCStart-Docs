@@ -99,6 +99,19 @@
    retry_interval = 5
    ```
 
+## 🚀 友情链接
+
+> 来自官方的详细部署指南
+
+<NCard title="📦 MaiBot 官方部署文档" link="https://docs.mai-mai.org/manual/deployment/">
+麦麦官方部署指南，多系统适配
+</NCard>
+
+<NCard title="📦 MoFox_bot 官方部署文档" link="https://docs.mofox-sama.com/docs/guides/">
+墨狐官方部署指南，多系统适配
+</NCard>
+
+
 ## 第三步：启动 Bot 🤖
 
 部署完成后，返回主菜单，选择 `[A] 🚀 运行实例`：
@@ -172,6 +185,12 @@
 - 选择您的实例后，输入指令`stop <你要停止的进程的PID>`
 - 或者简单粗暴，直接关闭实例的终端窗口
 
+更多详细问题请查看FAQ
+
+<NCard title="阅读FAQ" link="./FAQ">
+查看更详细的常见问题解答
+</NCard>
+
 ## 进阶功能探索 🔍
 
 熟悉基本操作后，您可以探索：
@@ -185,5 +204,10 @@
 - 建议先完成一次完整的部署和启动流程
 - 遇到问题时，查看程序内的提示信息
 - 可以访问"知识库"获取更多帮助
-- [加入官方QQ群获取社区支持](/other/about)
 :::
+
+<NCard title="社区支持" link="/other/about">
+加入官方QQ群，获取社区支持
+</NCard>
+
+## [TOP](#👶-新手快速上手)
