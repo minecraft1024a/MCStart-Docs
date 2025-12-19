@@ -3,7 +3,11 @@
 > **欢迎使用 MaiCore Start！** 这是一个强大的（我猜是的） Bot 实例部署管理系统，支持 MaiBot 和 MoFox_bot 的完整自动化部署流程。
 
 ::: tip 温馨提示
-本教程专为新手设计，每个步骤都有详细说明。如果您遇到问题，请仔细阅读对应的解决方案部分。
+本教程可能比较复杂，每个步骤都有详细说明。如果您遇到问题，请仔细阅读对应的解决方案部分。如果您只是想知道怎么使用，可以阅读[新手使用指南](./use.md)，或[实例部署辅助系统](../function/instance_deployment.md)
+:::
+
+::: tip 关于Windows通知
+由于 GitHub 服务器在境外，所以在没有代理软件时，部署可能会十分缓慢，为了照顾没有代理软件的用户，方便使用，我们开发了一个 Windows 通知功能，当缓慢的部署流程结束，或出现任何意外情况、需要您做出选择时，我们会向Windows通知中心发送通知以提醒您，这样您既可以在部署期间做您的其他事情，也不会错过任何重要信息。这个功能您可以在[程序设置](../function/miscellaneous/settings#Windows通知)中关闭。
 :::
 
 ## 📋 目录
@@ -19,7 +23,6 @@
 - [常见问题解决](#常见问题解决)
 - [高级配置](#高级配置)
 
----
 
 ## 🖥️ 系统要求
 
@@ -799,9 +802,23 @@ compress_identity = true # 是否压缩身份，压缩后会精简身份信息�
 ```
 :::
 
+详细的配置文件配制方法及解释，请在官方文档中心查看
+
+<NCard title="📖 MaiBot" link="https://docs.mai-mai.org/manual/configuration/">
+MaiBot （麦麦）的配置与安装简介
+</NCard>
+
+<NCard title="📖 MoFox_bot" link="https://docs.mofox-sama.com/docs/guides/bot_config_guide.html">
+MoFox-Bot（墨狐）配置文件 (bot_config.toml) 究极详细指南
+</NCard>
+
 ### model_config.toml
 
 AI 模型配置文件（MaiBot 0.10.0+）仅展示部分：
+
+::: tip 重要提醒
+**<mark>在配置AI模型文件前，你需要获取API秘钥，我们默认使用硅基流动的服务，你可以查看[这里](./use#第零步-最最最最重要的一点-获取你的api秘钥)了解如何获取API秘钥</mark>**
+:::
 
 ```toml
 [[api_providers]] # SiliconFlow的API服务商配置
@@ -1487,7 +1504,7 @@ MaiCore Start版本: v4.1.2-beta
 
 ---
 
-**感谢使用 MaiCore Start 企业级部署系统！**
+**感谢使用 MaiCore Start 部署系统！**
 
 通过自动化的部署流程、智能的配置管理和强大的监控功能，MaiCore Start 为 Bot 开发者提供了专业级的部署解决方案。如果您觉得这个工具有帮助，欢迎给项目点个星⭐！
 
