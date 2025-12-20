@@ -9,5 +9,13 @@
 
 [麦麦测试交流群](https://qm.qq.com/q/k0fh8rXEu4)<mark>可以接入bot</mark>
 
+## 邮箱
+<mark>请勿发送垃圾邮件，邮件不怎么看，有重要事宜请加QQ</mark>
 
+xiaochengzhixue@outlook.com
 
+## 平台
+
+### bilibili
+
+![MaiCore](./bilibli.svg)

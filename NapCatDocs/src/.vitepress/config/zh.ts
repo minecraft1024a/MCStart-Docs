@@ -110,5 +110,13 @@ function sidebarGuide(): DefaultTheme.Sidebar {
         },
       ]
     },
+    {
+      text: '其他',
+      base: '/other',
+      collapsed: false,
+      items: [
+        { text: '联系', link: '/about' },
+      ]
+    },
   ]
 }
