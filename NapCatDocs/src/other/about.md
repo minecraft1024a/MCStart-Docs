@@ -30,13 +30,4 @@ xiaochengzhixue@outlook.com
     <img src="./github.svg" alt="xiaoCZX" title="xiaoCZX" width="300" >
 </a>
 
-## 项目统计
-
-
-
-### 仓库活跃度
-![Alt](https://repobeats.axiom.co/api/embed/bcff8618d3f09eea1081f4fbcfb9fde5e464409a.svg "Repobeats analytics image")
-### Star历史
-
-[![Star History Chart](https://api.star-history.com/svg?repos=MaiCore-Start/MaiCore-Start&type=Date)](https://star-history.com/#MaiCore-Start/MaiCore-Start&Date)
 

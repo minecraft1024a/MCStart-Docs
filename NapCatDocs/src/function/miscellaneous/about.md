@@ -28,6 +28,12 @@
 ### 开源许可：Apache License 2.0
 GitHub：https://github.com/MaiCore-Start/MaiCore-Start
 
+### [在 DeepWiKi 上查看](https://deepwiki.com/MaiCore-Start/MaiCore-Start)
+
+<a href="https://deepwiki.com/MaiCore-Start/MaiCore-Start">
+    <img src="https://deepwiki.com/badge.svg" alt="DeepWiKi" title="DeepWiKi" width="300" >
+</a>
+
 ### 有帮助的话，请给个Star支持一下哦~
 
 ### [欢迎加入我们的社区！](../../other/about.md)
@@ -44,6 +50,9 @@ GitHub：https://github.com/MaiCore-Start/MaiCore-Start
 
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=MaiCore-Start/MaiCore-Start)
 
+### 名片
+---
+
 #### xiaoCZX
 
 <div style="display: flex; gap: 20px; justify-content: center; margin: 20px 0;">
@@ -52,10 +61,10 @@ GitHub：https://github.com/MaiCore-Start/MaiCore-Start
   <a href="https://github.com/xiaoCZX" target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=xiaoCZX&show_icons=true&theme=radical" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=xiaoCZX&show_icons=true&theme=github_light" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=xiaoCZX&show_icons=true&theme=default" />
       <!-- fallback -->
       <img 
-        src="https://github-readme-stats.vercel.app/api?username=xiaoCZX&show_icons=true&theme=github_light"
+        src="https://github-readme-stats.vercel.app/api?username=xiaoCZX&show_icons=true&theme=default"
         alt="GitHub Stats"
         style="max-width: 400px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);"
       />
@@ -66,10 +75,10 @@ GitHub：https://github.com/MaiCore-Start/MaiCore-Start
   <a href="https://github.com/xiaoCZX" target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaoCZX&layout=compact&theme=radical" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaoCZX&layout=compact&theme=github_light" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaoCZX&layout=compact&theme=default" />
       <!-- fallback -->
       <img 
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaoCZX&layout=compact&theme=github_light"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaoCZX&layout=compact&theme=default"
         alt="Top Languages"
         style="max-width: 300px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);"
       />
@@ -86,10 +95,10 @@ GitHub：https://github.com/MaiCore-Start/MaiCore-Start
   <a href="https://github.com/minecraft1024a" target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=minecraft1024a&show_icons=true&theme=radical" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=minecraft1024a&show_icons=true&theme=github_light" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=minecraft1024a&show_icons=true&theme=default" />
       <!-- fallback -->
       <img 
-        src="https://github-readme-stats.vercel.app/api?username=minecraft1024a&show_icons=true&theme=github_light"
+        src="https://github-readme-stats.vercel.app/api?username=minecraft1024a&show_icons=true&theme=default"
         alt="GitHub Stats"
         style="max-width: 400px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);"
       />
@@ -100,10 +109,10 @@ GitHub：https://github.com/MaiCore-Start/MaiCore-Start
   <a href="https://github.com/minecraft1024a" target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=minecraft1024a&layout=compact&theme=radical" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=minecraft1024a&layout=compact&theme=github_light" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=minecraft1024a&layout=compact&theme=default" />
       <!-- fallback -->
       <img 
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=minecraft1024a&layout=compact&theme=github_light"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=minecraft1024a&layout=compact&theme=default"
         alt="Top Languages"
         style="max-width: 300px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);"
       />
@@ -121,10 +130,10 @@ GitHub：https://github.com/MaiCore-Start/MaiCore-Start
   <a href="https://github.com/LuisKlee" target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=LuisKlee&show_icons=true&theme=radical" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=LuisKlee&show_icons=true&theme=github_light" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=LuisKlee&show_icons=true&theme=default" />
       <!-- fallback -->
       <img 
-        src="https://github-readme-stats.vercel.app/api?username=LuisKlee&show_icons=true&theme=github_light"
+        src="https://github-readme-stats.vercel.app/api?username=LuisKlee&show_icons=true&theme=default"
         alt="GitHub Stats"
         style="max-width: 400px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);"
       />
@@ -135,10 +144,10 @@ GitHub：https://github.com/MaiCore-Start/MaiCore-Start
   <a href="https://github.com/LuisKlee" target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=LuisKlee&layout=compact&theme=radical" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=LuisKlee&layout=compact&theme=github_light" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=LuisKlee&layout=compact&theme=default" />
       <!-- fallback -->
       <img 
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=LuisKlee&layout=compact&theme=github_light"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=LuisKlee&layout=compact&theme=default"
         alt="Top Languages"
         style="max-width: 300px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);"
       />
@@ -146,3 +155,11 @@ GitHub：https://github.com/MaiCore-Start/MaiCore-Start
   </a>
 
 </div>
+
+## 项目统计
+
+### 仓库活跃度
+![Alt](https://repobeats.axiom.co/api/embed/bcff8618d3f09eea1081f4fbcfb9fde5e464409a.svg "Repobeats analytics image")
+### Star历史
+
+[![Star History Chart](https://api.star-history.com/svg?repos=MaiCore-Start/MaiCore-Start&type=Date)](https://star-history.com/#MaiCore-Start/MaiCore-Start&Date)
