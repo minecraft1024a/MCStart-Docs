@@ -68,7 +68,7 @@ export const shared = defineConfig({
   },
 
   sitemap: {
-    hostname: 'https://napneko.github.io/',
+    hostname: 'https://docs.mmcstart.cn:8848/',
     transformItems(items) {
       return items.filter((item) => !item.url.includes('migration'))
     },

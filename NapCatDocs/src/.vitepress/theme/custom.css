@@ -21,11 +21,11 @@
 }
 
 .VPButton.brand {
-    background-color: #f472b6 !important;
+    background-color: #8e61ff !important;
 }
 
 .VPLocalSearchBox #localsearch-list mark {
-    background-color: rgba(255, 138, 128, 0.3);
+    background-color: rgba(94, 8, 255, 0.3);
 }
 /* .vitepress\theme\style\blur.css */
 :root {
