@@ -22,6 +22,25 @@ export const shared = defineConfig({
     ssr: {
       noExternal: ['@nolebase/*'],
     },
+    server: {
+      port: 8850,
+      host: '0.0.0.0',
+      cors: true,
+      proxy: {
+        // 代理API请求，解决跨域问题
+        '/api': {
+          target: 'http://localhost:3000',
+          changeOrigin: true,
+          secure: false,
+        },
+        // 代理WebSocket连接
+        '/ws': {
+          target: 'ws://localhost:3000',
+          changeOrigin: true,
+          ws: true,
+        },
+      },
+    },
     plugins: [
       GitChangelog({
         maxGitLogCount: 2000,

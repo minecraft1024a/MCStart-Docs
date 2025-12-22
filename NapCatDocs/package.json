@@ -5,7 +5,9 @@
   "scripts": {
     "docs:dev": "vitepress dev src",
     "docs:build": "vitepress build src",
-    "docs:preview": "vitepress preview src"
+    "docs:preview": "vitepress preview src",
+    "docs:dev:custom": "vitepress dev src --port",
+    "docs:preview:custom": "vitepress preview src --port"
   },
   "author": "",
   "dependencies": {
