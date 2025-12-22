@@ -84,7 +84,7 @@
    - 如果暂时没有，可以直接回车跳过
 
 8. **配置您的bot的人格**
-   - 部署完成后，我们会询问您是否在文本编辑器中打开主要配置文件，默认使用 VSCode 如果你没安装，则会在记事本中打开，建议在部署前先[在组件下载中安装 VSCode ](../../function/miscellaneous/components)，<mark>我还是比较推荐你打开的，免得你找不着</mark>，如果您部署的是麦麦bot并且部署了控制面板（WebUI），那么您可以在控制面板中对麦麦bot的人格进行编辑。
+   - 部署完成后，我们会询问您是否在文本编辑器中打开主要配置文件，默认使用 VSCode 如果你没安装，则会在记事本中打开，建议在部署前先[在组件下载中安装 VSCode ](../function/miscellaneous/components)，<mark>我还是比较推荐你打开的，免得你找不着</mark>，如果您部署的是麦麦bot并且部署了控制面板（WebUI），那么您可以在控制面板中对麦麦bot的人格进行编辑。
    - [MaiBot 配置与安装简介](https://docs.mai-mai.org/manual/configuration/)
    - [MoFox-Bot 配置文件 (bot_config.toml) 究极详细指南](https://docs.mofox-sama.com/docs/guides/bot_config_guide.html)
    - 这时我们就要用到先前获取的 API 秘钥了，在`model_config.toml`中，你可以找到这一栏：
