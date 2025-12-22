@@ -69,7 +69,7 @@ class Star {
         this.rotationSpeed = (Math.random() - 0.5) * 0.05;
 
         // 生命周期：300到600帧 (约5-10秒 @ 60fps)
-        this.maxLife = Math.random() * 300 + 300;
+        this.maxLife = Math.random() * 900 + 300;
         this.life = this.maxLife;
     }
 
