@@ -1,6 +1,6 @@
 # MCStart
 <div style="display: flex; justify-content: center;">
-  <img src="/assets/logos/icon_light.png" alt="description" width="300" height="300"/>
+  <img src="../logo/logo.png" alt="description" width="300" height="300"/>
 </div>
 
 ## 欢迎回家!

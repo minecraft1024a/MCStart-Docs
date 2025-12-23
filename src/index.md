@@ -15,7 +15,7 @@ hero:
       text: GitHub
       link: https://github.com/MaiCore-Start/MaiCore-Start
   image:
-    src: /assets/logos/icon_light.png
+    src: ../logo/logo.png
     alt: Logo
 
 features:
