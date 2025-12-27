@@ -13,7 +13,7 @@
   </picture>
 </a>
 
-### 版本：V4.1.2-beta
+### 版本：V4.1.3-beta
 新增亮点：
   - 模块化部署逻辑
   - 精确的资源监控器
@@ -27,6 +27,7 @@
   - structlog - 结构化日志
   - rich - 终端UI
   - toml - 配置管理
+  - C++ - 更紧凑的程序体积
 
 ### 开源许可：Apache License 2.0
 GitHub：https://github.com/MaiCore-Start/MaiCore-Start

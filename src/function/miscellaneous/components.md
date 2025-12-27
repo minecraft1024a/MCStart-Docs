@@ -28,7 +28,7 @@
 - [Node.js](https://nodejs.org/zh-cn/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Git](https://git-scm.com/)
-- [Go](https://go.dev/)
+- [Go](https://go.dev/)（我也不知道我为什么要添加它，我也不知道为什么我不添加Rust）
 - [Python](https://www.python.org/)
 - [MongoDB](https://www.mongodb.com/)
 - [SQLiteStudio](https://sqlitestudio.pl/)
