@@ -13,21 +13,19 @@
   </picture>
 </a>
 
-### 版本：V4.1.3-beta
-新增亮点：
-  - 模块化部署逻辑
-  - 精确的资源监控器
-  - 丰富的可自定义UI界面（rich）
-  - 改进的错误处理
-  - 实例多开端口自动分配
-  - 代理功能
-
+### 版本：V4.1.4-beta
+更新简章：
+- **修复了上一版本的C++依赖问题，这次采用C语言编写，更节省空间**
+- **添加MoFoxWebUI的部署功能**
+- 优化MoFox部署逻辑
+- 修复无法打开MoFox的内置固件配置文件打不开的问题
+- 添加打开实例所在目录的功能
 ### 技术栈：
   - Python 3.12.8
   - structlog - 结构化日志
   - rich - 终端UI
   - toml - 配置管理
-  - C++ - 更紧凑的程序体积
+  - C - 更紧凑的程序体积
 
 ### 开源许可：Apache License 2.0
 GitHub：https://github.com/MaiCore-Start/MaiCore-Start

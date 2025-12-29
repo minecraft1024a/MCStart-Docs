@@ -14,6 +14,9 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/MaiCore-Start/MaiCore-Start
+    - theme: alt
+      text: Download
+      link: /Download/MaiCoreStart-v4.1.4-beta-Install.exe
   image:
     src: /assets/logo/logo.png
     alt: Logo
