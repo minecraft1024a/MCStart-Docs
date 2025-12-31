@@ -208,7 +208,7 @@
 
 更多详细问题请查看FAQ
 
-<NCard title="阅读FAQ" link="./FAQ">
+<NCard title="阅读FAQ" link="./FAQ.html">
 查看更详细的常见问题解答
 </NCard>
 
@@ -227,7 +227,7 @@
 - 可以访问"知识库"获取更多帮助
 :::
 
-<NCard title="社区支持" link="/other/about">
+<NCard title="社区支持" link="/other/about.html">
 加入官方QQ群，获取社区支持
 </NCard>
 

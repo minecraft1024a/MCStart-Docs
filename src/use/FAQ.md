@@ -427,11 +427,11 @@ def check_napcat_connection(self, napcat_path: str) -> bool:
 
 ---
 
-<NCard title="📘 查看启动文档" link="./startup">
+<NCard title="📘 查看启动文档" link="./startup.html">
 了解更多关于 MaiCore Start 启动系统的详细信息
 </NCard>
 
-<NCard title="📘 查看部署文档" link="./deployment.md">
+<NCard title="📘 查看部署文档" link="./deployment.html">
 查看完整的 MaiCore Start 部署教程
 </NCard>
 
