@@ -1,0 +1,16 @@
+import{_ as t,C as n,c as i,o as l,j as a,G as e,ar as c,a as d}from"./chunks/framework.DwOsETNj.js";const k=JSON.parse('{"title":"数据库迁移","description":"","frontmatter":{},"headers":[],"relativePath":"function/mongodb_to_sqlite.md","filePath":"function/mongodb_to_sqlite.md","lastUpdated":1766413896000}'),r={name:"function/mongodb_to_sqlite.md"};function _(g,s,b,h,m,f){const p=n("NolebasePageProperties"),o=n("NolebaseGitChangelog");return l(),i("div",null,[s[0]||(s[0]=a("h1",{id:"数据库迁移",tabindex:"-1"},[d("数据库迁移 "),a("a",{class:"header-anchor",href:"#数据库迁移","aria-label":'Permalink to "数据库迁移"'},"​")],-1)),e(p),s[1]||(s[1]=c(`<p>绯雾功能</p><p>这个原本是把<code>0.7.0-</code>版本的数据库（MongoDB）迁移至<code>0.7.0+</code>版本的数据库（SQLite）的，但是因为更高版本的麦麦不再提供迁移脚本，所以这个功能被废弃了。如果迁移目标是比较低的版本，如<code>0.7.1</code>、<code>0.7.2</code>、<code>0.8.1</code>等仍然可以使用，但高版本如<code>0.11.6</code>就无法使用了。（不会吧不会吧，不会还有人迭代这么多次了还在用破甲的0.6.2吧？虽然我必须承认那是最好用的破甲版本[超小声bb]）</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" style="--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e;" tabindex="0"><code><span class="line"><span>MongoDB → SQLite 数据迁移</span></span>
+<span class="line"><span>================</span></span>
+<span class="line"><span>ℹ️ 开始数据库迁移（MongoDB → SQLite）</span></span>
+<span class="line"><span>============================================================</span></span>
+<span class="line"><span>📊 数据库迁移向导</span></span>
+<span class="line"><span>============================================================</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>📂 步骤1：选择源版本（包含MongoDB数据的旧版本）</span></span>
+<span class="line"><span>请选择一个包含MongoDB数据的配置（0.7.0以下版本）：</span></span>
+<span class="line"><span>请选择您要使用的实例：</span></span>
+<span class="line"><span>┏━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━┳━━━━━━━━━┳━━━━━━━━━━━┓</span></span>
+<span class="line"><span>┃ 序号  ┃ 序列号      ┃ 昵称     ┃ 版本  ┃ Bot类型 ┃ 状态      ┃</span></span>
+<span class="line"><span>┡━━━━━━━╇━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━╇━━━━━━━━━╇━━━━━━━━━━━┩</span></span>
+<span class="line"><span>│ 实例1 │ 1 (绝对: 1) │ 默认配置 │ 0.0.0 │ MaiBot  │ ❌ 未配置 │</span></span>
+<span class="line"><span>└───────┴─────────────┴──────────┴───────┴─────────┴───────────┘</span></span>
+<span class="line"><span>请输入源版本的实例序列号（输入Q取消）： ():</span></span></code></pre></div>`,3)),e(o)])}const B=t(r,[["render",_]]);export{k as __pageData,B as default};

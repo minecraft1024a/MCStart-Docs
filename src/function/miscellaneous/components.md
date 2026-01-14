@@ -16,8 +16,9 @@
 │  [4]   │ 💙 Go                │ Go编程语言           │ ✅ 可下载  │
 │  [5]   │ 🐍 Python            │ Python编程语言       │ ✅ 可下载  │
 │  [6]   │ 🟢 MongoDB           │ NoSQL数据库          │ ✅ 可下载  │
-│  [7]   │ 🗄️ SQLiteStudio       │ SQLite数据库管理工具 │ ✅ 可下载  │
+│  [7]   │ 🗄️ SQLiteStudio      │ SQLite数据库管理工具 │ ✅ 可下载  │
 │  [8]   │ 🐱 NapCat            │ QQ机器人适配器       │ ✅ 可下载  │
+│  [9]   │ 🌐 MaiBot WebUI      │ MaiBot控制面板Web界面 │ ✅ 可下载  │
 └────────┴──────────────────────┴──────────────────────┴────────────┘
 
 [Q] 返回上级菜单
@@ -33,6 +34,7 @@
 - [MongoDB](https://www.mongodb.com/)
 - [SQLiteStudio](https://sqlitestudio.pl/)
 - [NapCat](https://napneko.github.io/)
+- [MaiBot WebUI](https://github.com/Mai-with-u/MaiBot-Dashboard)
 
 ## 主要讲一下 VSCode
 
@@ -62,3 +64,6 @@ bot的配置文件是toml格式的，但VSCode默认不支持高亮Toml格式的
 ### SQLite 文件支持
 
 这个一般用不上，这个是用于查看SQLite数据库文件（.db文件，也就是bot的数据库文件，如果你需要查看数据库文件，可以安装这个插件）的，在扩展中搜索`SQLite Viewer`并安装，安装完成后，重启VSCode，.db文件就能在VSCode中打开了，这个扩展已经能完全代替SQLiteStudio了。
+
+## MaiBot WebUI
+新版本的MaiBot已经内置WebUI，<mark>这个[仓库](https://github.com/Mai-with-u/MaiBot-Dashboard)目前已经归档</mark>，你仍然可以在这里安装它，但更新版本的WebUI将随MaiBot主程序一起更新。
