@@ -10,7 +10,7 @@ export const zh = defineConfig({
     sidebar: sidebarGuide(),
 
     editLink: {
-      pattern: 'https://github.com/MaiCore-Start/MCStart-Docs/edit/main/NapCatDocs/src/:path',
+      pattern: 'https://github.com/MaiCore-Start/MCStart-Docs/edit/main/src/:path',
       text: '在 GitHub 上编辑此页面'
     },
 
