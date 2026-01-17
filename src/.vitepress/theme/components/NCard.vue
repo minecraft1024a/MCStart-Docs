@@ -1,18 +1,44 @@
 <script setup lang="ts">
+import { computed } from 'vue'
+
 const props = defineProps<{
     title: string,
     link: string,
     target?: string
 }>()
-const defaultProps = {
-    target: '_self'
-}
+
+// 检测是否为外部链接
+const isExternalLink = computed(() => {
+    return /^(https?:|mailto:|tel:)/.test(props.link)
+})
+
+// 如果是内部链接且是 .md 文件，转换为 .html
+const processedLink = computed(() => {
+    if (isExternalLink.value) {
+        return props.link
+    }
+    // 将 .md 转换为 .html，如果路径不带扩展名则保持原样
+    return props.link.replace(/\.md$/, '.html')
+})
 </script>
 
 <template>
     <ClientOnly>
         <div class="ncard">
-            <a :href="props.link" :target="props.target || defaultProps.target">
+            <!-- 外部链接使用普通 a 标签 -->
+            <a v-if="isExternalLink" 
+               :href="processedLink" 
+               :target="props.target || '_blank'" 
+               rel="noopener noreferrer">
+                <div class="ncardBody">
+                    <div class="card-title">{{ props.title }}</div>
+                    <div class="card-text">
+                        <slot></slot>
+                    </div>
+                </div>
+            </a>
+            <!-- 内部链接使用 a 标签但不设置 target，让 VitePress 处理路由 -->
+            <a v-else :href="processedLink">
                 <div class="ncardBody">
                     <div class="card-title">{{ props.title }}</div>
                     <div class="card-text">
