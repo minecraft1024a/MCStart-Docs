@@ -20,16 +20,16 @@
 查看指定PID的进程详情，主程序也可以被查看。
 ```
 ╭───────────────────────────────────────────────── 进程 7904 详细信息 ─────────────────────────────────────────────────╮
-│ [bold cyan]PID:[/bold cyan] 7904                                                                                     │
-│ [bold cyan]名称:[/bold cyan] python3.12.exe                                                                          │
-│ [bold cyan]状态:[/bold cyan] running                                                                                 │
-│ [bold cyan]内存 (MB):[/bold cyan] 55.25                                                                              │
-│ [bold cyan]启动时间:[/bold cyan] 2025-12-19 17:42:34                                                                 │
-│ [bold cyan]命令行:[/bold cyan]                                                                                       │
+│ PID: 7904                                                                                     │
+│ 名称: python3.12.exe                                                                          │
+│ 状态: running                                                                                 │
+│ 内存 (MB): 55.25                                                                              │
+│ 启动时间: 2025-12-19 17:42:34                                                                 │
+│ 命令行:                                                                                       │
 │ C:\Users\xiaoCZX\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe   │
 │ main_refactored.py                                                                                                   │
-│ [bold cyan]工作目录:[/bold cyan] D:\MaiCore-Start\MaiCore-Start                                                      │
-│ [bold cyan]父进程ID:[/bold cyan] 27496                                                                               │
+│ 工作目录: D:\MaiCore-Start\MaiCore-Start                                                      │
+│ 父进程ID: 27496                                                                               │
 ╰──────────────────────────────────────────────── 按任意键返回监控... ─────────────────────────────────────────────────╯
 ```
 

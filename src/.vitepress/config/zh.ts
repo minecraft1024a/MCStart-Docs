@@ -10,7 +10,7 @@ export const zh = defineConfig({
     sidebar: sidebarGuide(),
 
     editLink: {
-      pattern: 'https://github.com/MaiCore-Start/MCStart-Docs/edit/main/NapCatDocs/src/:path',
+      pattern: 'https://github.com/MaiCore-Start/MCStart-Docs/edit/main/src/:path',
       text: '在 GitHub 上编辑此页面'
     },
 
@@ -43,6 +43,10 @@ export const zh = defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
+      text: "首页",
+      link: '/',
+    },
+    {
       text: '快速开始',
       link: '/guide/start-install',
       activeMatch: '/guide/'
@@ -52,11 +56,6 @@ function nav(): DefaultTheme.NavItem[] {
       link: '/other/about',
       activeMatch: '/other/about'
     },
-    {
-      text: '容器测试',
-      link: '/test-containers',
-      activeMatch: '/test-containers'
-    }
   ]
 }
 
@@ -121,7 +120,6 @@ function sidebarGuide(): DefaultTheme.Sidebar {
       collapsed: false,
       items: [
         { text: '联系', link: '/about' },
-        { text: 'README', link: '/README.md' }
       ]
     },
   ]
