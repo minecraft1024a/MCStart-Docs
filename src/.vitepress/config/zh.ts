@@ -100,6 +100,7 @@ function sidebarGuide(): DefaultTheme.Sidebar {
         },
         { text: '[C] 知识库构建', link: '/lpmm' },
         { text: '[D] 数据库迁移', link: '/mongodb_to_sqlite' },
+        { text: '[E] 插件管理', link: '/plugins' },
         { text: '[F] 实例部署辅助系统', link: '/instance_deployment' },
         { text: '[G] 查看运行状态', link: '/state' },
         { text: '[H] 杂项',

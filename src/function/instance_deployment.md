@@ -20,7 +20,7 @@
 请选择Bot类型 (1/2):  ():
 ```
 - <mark>如果你选择的是 MaiBot （麦麦）</mark>，那么可供你下载的组件有：MaiBot本体（你本体都不下的话，那你部署个啥呢）、适配器（MaiBot-Napcat-Adapter）（虽然目前MaiBot的适配器还是外置的，但据说很快就要合并到主程序里了）、NapCat、MongoDB（前朝余孽）、WebUI（MaiBot-Dashboard，MaiBot控制面板）。
-- <mark>如果你选择 MoFox_bot （墨狐）</mark>，那么可供你下载的组件有：MoFox_bot本体、适配器（MoFox_bot-Napcat-Adapter）（墨狐的适配器早就内置了，甭下载，浪费时间）、NapCat、、~~WebUI（等着）~~
+- <mark>如果你选择 MoFox_bot （墨狐）</mark>，那么可供你下载的组件有：MoFox_bot本体、适配器（MoFox_bot-Napcat-Adapter）（墨狐的适配器早就内置了，甭下载，浪费时间）、NapCat、WebUI
 - 更多外置组件去看[组件下载](./miscellaneous/components)，推荐在部署前安装VSCode。
 
 ::: tip
