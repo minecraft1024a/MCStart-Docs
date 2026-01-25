@@ -1,5 +1,15 @@
 # 下载我们的软件
 
+## V4.2.1
+
+- 优化新手引导，添加API获取教程
+- 优化配置集UI，添加批量管理功能
+
+<br>
+<NCard title="📥 下载V4.2.1版本" link="./MaiCoreStart-v4.2.1-beta-Install.exe">
+安装 MCStart 的V4.2.1版本
+</NCard>
+
 ## V4.2.0
 - 实现基于Git的部署逻辑
 - 更新适配器选择逻辑，统一使用最新版启动器（main分支）
@@ -180,7 +190,8 @@ WebUI 配置处理方式已重构。内置 WebUI 版本自动使用代理端口 
 
 | 版本号 | 描述 | 下载 |
 | --- | --- | --- |
-| V4.2.0 | 最新版本，推荐 | [MaiCoreStart-v4.2.0-beta-Install.exe](./MaiCoreStart-v4.2.0-beta-Install.exe) |
+| V4.2.1 | 最新版本，推荐 | [MaiCoreStart-v4.2.1-beta-Install.exe](./MaiCoreStart-v4.2.1-beta-Install.exe) |
+| V4.2.0 | 旧版本 | [MaiCoreStart-v4.2.0-beta-Install.exe](./MaiCoreStart-v4.2.0-beta-Install.exe) |
 | V4.1.5 | 旧版本 | [MaiCoreStart-v4.1.5-beta-Install.exe](./MaiCoreStart-v4.1.5-beta-Install.exe) |
 | V4.1.4 | 旧版本 | [MaiCoreStart-v4.1.4-beta-Install.exe](./MaiCoreStart-v4.1.4-beta-Install.exe) |
 | V4.1.3 | 旧版本，不推荐 | [MaiCoreStart-v4.1.3-beta-Install.exe](./MaiCoreStart-v4.1.3-beta-Install.exe) |
